@@ -582,7 +582,7 @@ public class PrimaryController {
             port = 0;
             flag = false;
             Platform.runLater(() -> {
-              createInfoPopup(null, "Сервер закрылся");
+              createInfoPopup(null, "Соединение с сервером оборвано");
               initialize_start();
             });
           }
